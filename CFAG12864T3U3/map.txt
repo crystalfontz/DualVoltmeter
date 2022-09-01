@@ -1,0 +1,771 @@
+========== avr-size ========== 
+   text	   data	    bss	    dec	    hex	filename
+  13130	     72	   1684	  14886	   3a26	D:\Arduino_Build\CFAG12864T3U3.ino.elf
+========== avr-nm ========== 
+         w _Z11serialEventv
+00000000 W __heap_end
+00000000 a __tmp_reg__
+00000000 a __tmp_reg__
+00000000 a __tmp_reg__
+00000000 a __tmp_reg__
+00000000 a __tmp_reg__
+00000000 W __vector_default
+00000000 T __vectors
+00000001 a __zero_reg__
+00000001 a __zero_reg__
+00000001 a __zero_reg__
+00000001 a __zero_reg__
+00000001 a __zero_reg__
+00000003 A __FUSE_REGION_LENGTH__
+0000003d a __SP_L__
+0000003d a __SP_L__
+0000003d a __SP_L__
+0000003d a __SP_L__
+0000003d a __SP_L__
+0000003e a __SP_H__
+0000003e a __SP_H__
+0000003e a __SP_H__
+0000003e a __SP_H__
+0000003e a __SP_H__
+0000003f a __SREG__
+0000003f a __SREG__
+0000003f a __SREG__
+0000003f a __SREG__
+0000003f a __SREG__
+00000068 T __trampolines_end
+00000068 T __trampolines_start
+00000068 00000020 t big_space
+00000088 00000020 t big_9
+000000a8 00000020 t big_8
+000000c8 00000020 t big_7
+000000e8 00000020 t big_6
+00000108 00000020 t big_5
+00000128 00000020 t big_4
+00000148 00000020 t big_3
+00000168 00000020 t big_2
+00000188 00000020 t big_1
+000001a8 00000020 t big_0
+000001c8 00000020 t big_dot
+000001e8 00000020 t big_minus
+00000208 00000020 t big_plus
+00000228 00000300 t Font_08x08_Horiz
+00000400 A __LOCK_REGION_LENGTH__
+00000400 A __SIGNATURE_REGION_LENGTH__
+00000400 A __USER_SIGNATURE_REGION_LENGTH__
+00000528 00000014 t digital_pin_to_timer_PGM
+0000053c 00000010 t _ZL24Static_Indicator_Columns
+0000054c 00000020 t _ZZ5setupE3__c_3
+0000056c 00000007 t _ZZ5setupE3__c_2
+00000573 00000008 t _ZZ5setupE3__c_1
+0000057b 0000001c t _ZZ5setupE3__c_0
+00000597 00000012 t _ZZ5setupE3__c
+000005a9 00000400 t _ZL17Background_Bitmap
+000008ff W __stack
+000009a9 0000000a t port_to_output_PGM
+000009b3 0000000a t port_to_mode_PGM
+000009bd 00000014 t digital_pin_to_port_PGM
+000009d1 00000014 t digital_pin_to_bit_mask_PGM
+000009e6 T __ctors_start
+000009e8 T __ctors_end
+000009e8 T __dtors_end
+000009e8 T __dtors_start
+000009e8 W __init
+000009f4 00000016 T __do_copy_data
+00000a0a 00000010 T __do_clear_bss
+00000a12 t .do_clear_bss_loop
+00000a14 t .do_clear_bss_start
+00000a1a 00000016 T __do_global_ctors
+00000a38 T __bad_interrupt
+00000a38 W __vector_1
+00000a38 W __vector_10
+00000a38 W __vector_12
+00000a38 W __vector_13
+00000a38 W __vector_14
+00000a38 W __vector_15
+00000a38 W __vector_17
+00000a38 W __vector_2
+00000a38 W __vector_20
+00000a38 W __vector_21
+00000a38 W __vector_22
+00000a38 W __vector_23
+00000a38 W __vector_25
+00000a38 W __vector_3
+00000a38 W __vector_4
+00000a38 W __vector_5
+00000a38 W __vector_6
+00000a38 W __vector_7
+00000a38 W __vector_8
+00000a38 W __vector_9
+00000a3c 00000116 t _Z11Strip_CharthhiihPiS_.constprop.17
+00000b52 0000003e t pinMode.constprop.6
+00000b90 000001a0 t _Z11Draw_BitmaphhhhPKh.constprop.5
+00000d30 00000002 t _ZN7TwoWire16onRequestServiceEv
+00000d32 00000002 t _ZN7TwoWire16onReceiveServiceEPhi
+00000d34 0000005a t _ZN5Print5writeEPKhj
+00000d8e 0000001e t _ZN14HardwareSerial17availableForWriteEv
+00000dac 00000028 t _ZN14HardwareSerial4readEv
+00000dd4 0000001c t _ZN14HardwareSerial4peekEv
+00000df0 00000018 t _ZN14HardwareSerial9availableEv
+00000e08 00000014 t _Z17Serial0_availablev
+00000e1c 00000014 t _Z14serialEventRunv
+00000e30 00000044 t _ZN14HardwareSerial17_tx_udr_empty_irqEv
+00000e74 0000009a t _ZN14HardwareSerial5writeEh
+00000f0e 00000040 t _ZN14HardwareSerial5flushEv
+00000f4e 00000098 t digitalWrite
+00000fe6 0000004a t micros
+00001030 00000050 t _Z15Scale_To_StringaPc
+00001080 00000078 t _Z18Voltage_To_StringsiPcS_
+000010f8 00000002 t _ZN7TwoWire5flushEv
+000010fa 0000001e t _ZN7TwoWire4peekEv
+00001118 00000026 t _ZN7TwoWire4readEv
+0000113e 0000000e t _ZN7TwoWire9availableEv
+0000114c 00000006 t _ZN5Print17availableForWriteEv
+00001152 000000b0 t _Z10put_letterhhh.part.1
+00001202 00000040 t _Z10put_stringhhhPc.constprop.4
+00001242 00000042 t _Z12put_string_PhhhPK19__FlashStringHelper.constprop.11
+00001284 000000da t _Z14put_big_numberhhhPc
+0000135e 0000000e t _ZN8SPIClass8transferEh
+0000136c 0000000c t _Z12SPI_sendDatah
+00001378 0000000c t _Z15SPI_sendCommandh
+00001384 00000068 t _Z27Send_Framebuffer_To_Displayv
+000013ec 0000004e t twi_transmit
+0000143a 0000005a t _ZN7TwoWire5writeEPKhj
+00001494 0000005e t _ZN7TwoWire5writeEh
+000014f2 0000003c t twi_init
+0000152e 00000042 t twi_handleTimeout
+00001570 000001e0 t _ZN7TwoWire15endTransmissionEh.constprop.37
+00001750 00000036 t _ZN18Adafruit_I2CDevice5writeEPKhjbS1_j.part.1.constprop.28
+00001786 00000072 t _ZN18Adafruit_I2CDevice8detectedEv
+000017f8 00000042 t _ZN16Adafruit_ADS1X1513writeRegisterEhj.constprop.26
+0000183a 00000030 t _ZN16Adafruit_ADS1X1515startADCReadingEjb.constprop.25
+0000186a 000002c2 t _ZN16Adafruit_ADS1X1524getLastConversionResultsEv.constprop.21
+00001b2c 0000001a t _ZN5Print5writeEPKc.part.2.constprop.14
+00001b46 00000070 t twi_stop
+00001bb6 0000004c t _Z10SerPrintFFPK19__FlashStringHelperz
+00001c02 0000004c T __vector_19
+00001c4e 00000064 T __vector_18
+00001cb2 00000094 T __vector_16
+00001d46 0000008e T __vector_11
+00001dd4 0000023e T __vector_24
+00002012 00000084 t _GLOBAL__I_65535_0_fnt_08x08_h.c.o.2329
+00002096 00000978 T main
+00002a0e 00000012 T memcpy_P
+00002a20 00000058 T vsnprintf_P
+00002a78 000003b4 T vfprintf
+00002e2c 00000016 T strnlen_P
+00002e42 00000016 T strnlen
+00002e58 00000060 T fputc
+00002eb8 000000bc T __ultoa_invert
+00002f74 00000038 T __prologue_saves__
+00002fac 00000036 T __epilogue_restores__
+00002fe2 00000028 T __udivmodhi4
+00002fea t __udivmodhi4_loop
+00002ff8 t __udivmodhi4_ep
+0000300a 00000028 T __divmodhi4
+0000300a T _div
+00003022 t __divmodhi4_neg1
+0000302a t __divmodhi4_neg2
+00003030 t __divmodhi4_exit
+00003032 0000002e T __divmodsi4
+00003050 t __divmodsi4_neg2
+0000305e t __divmodsi4_exit
+00003060 00000010 T __negsi2
+00003070 0000000c T __tablejump2__
+0000307c 00000010 T __mulhisi3
+0000308c 0000001e T __umulhisi3
+000030aa 00000004 T __usmulhisi3
+000030ae 0000000a T __usmulhisi3_tail
+000030b8 00000044 T __udivmodsi4
+000030c4 t __udivmodsi4_loop
+000030de t __udivmodsi4_ep
+000030fc 00000138 T malloc
+00003234 00000112 T free
+00003346 T _exit
+00003346 W exit
+00003348 t __stop_program
+0000334a A __data_load_start
+0000334a T _etext
+00003392 A __data_load_end
+0000ffa0 A __DATA_REGION_LENGTH__
+00010000 A __EEPROM_REGION_LENGTH__
+00020000 A __TEXT_REGION_LENGTH__
+00800060 A __DATA_REGION_ORIGIN__
+00800100 D __data_start
+00800100 00000002 D __malloc_heap_end
+00800102 00000002 D __malloc_heap_start
+00800104 00000002 D __malloc_margin
+00800106 00000012 d _ZTV14HardwareSerial
+00800118 00000012 d _ZTV7TwoWire
+00800148 B __bss_start
+00800148 D __data_end
+00800148 D _edata
+00800148 00000001 b twi_timed_out_flag
+00800149 00000008 b twi_txBuffer
+00800151 00000001 b twi_txBufferLength
+00800152 00000001 b twi_txBufferIndex
+00800153 00000008 b twi_rxBuffer
+0080015b 00000001 b twi_rxBufferIndex
+0080015c 00000001 b _ISR_State_
+0080015d 00000001 b timer0_fract
+0080015e 00000004 b timer0_millis
+00800162 00000004 b timer0_overflow_count
+00800166 00000001 b _ZN8SPIClass11initializedE
+00800167 00000002 b twi_onSlaveReceive
+00800169 00000002 b twi_onSlaveTransmit
+0080016b 00000001 b sample_count
+0080016c 00000002 b Channel_2_3_mV_display
+0080016e 00000002 b Channel_0_1_mV_display
+00800170 00000002 b Channel_2_3_half_mV_current
+00800172 00000002 b Channel_0_1_half_mV_current
+00800174 00000002 b Channel_2_3_half_mV_previous
+00800176 00000002 b Channel_0_1_half_mV_previous
+00800178 0000005e b Channel_2_3_half_mV_max_history
+008001d6 0000005e b Channel_2_3_half_mV_min_history
+00800234 0000005e b Channel_0_1_half_mV_max_history
+00800292 0000005e b Channel_0_1_half_mV_min_history
+008002f0 00000001 b i
+008002f1 00000001 b history_is_initialized
+008002f2 00000002 b Channel_2_3_half_mV
+008002f4 00000002 b _Channel_2_3_Latest_half_mV_Sample
+008002f6 00000002 b Channel_0_1_half_mV
+008002f8 00000002 b _Channel_0_1_Latest_half_mV_Sample
+008002fa 00000001 b _Time_To_Update_Display
+008002fb 00000400 b framebuffer
+008006fb 00000001 b _ZN7TwoWire14rxBufferLengthE
+008006fc 00000001 b _ZN7TwoWire13rxBufferIndexE
+008006fd 00000008 b _ZN7TwoWire8rxBufferE
+00800705 00000001 b twi_inRepStart
+00800706 00000001 b twi_slarw
+00800707 00000008 b twi_masterBuffer
+0080070f 00000001 b twi_masterBufferLength
+00800710 00000001 b twi_masterBufferIndex
+00800711 00000001 b twi_error
+00800712 00000001 b twi_sendStop
+00800713 00000001 b twi_state
+00800714 00000001 b twi_do_reset_on_timeout
+00800715 00000004 b twi_timeout_us
+00800719 00000001 b _ZN7TwoWire12transmittingE
+0080071a 00000001 b _ZN7TwoWire13txBufferIndexE
+0080071b 00000008 b _ZN7TwoWire8txBufferE
+00800723 00000001 b _ZN7TwoWire9txAddressE
+00800724 00000001 b _ZN7TwoWire14txBufferLengthE
+00800725 0000009d b Serial
+008007c2 0000000c b Wire
+008007ce 0000000a b ads
+008007d8 00000002 B __brkval
+008007da 00000002 B __flp
+008007dc B __bss_end
+008007dc N __heap_start
+008007dc N _end
+00810000 N __eeprom_end
+========== .bss only ========== 
+
+D:\Arduino_Build\CFAG12864T3U3.ino.elf:     file format elf32-avr
+
+SYMBOL TABLE:
+00800148 l    d  .bss	00000000 .bss
+008002fb l     O .bss	00000400 framebuffer
+00800725 l     O .bss	0000009d Serial
+00800162 l     O .bss	00000004 timer0_overflow_count
+008006fc l     O .bss	00000001 _ZN7TwoWire13rxBufferIndexE
+008006fb l     O .bss	00000001 _ZN7TwoWire14rxBufferLengthE
+008006fd l     O .bss	00000008 _ZN7TwoWire8rxBufferE
+00800151 l     O .bss	00000001 twi_txBufferLength
+00800713 l     O .bss	00000001 twi_state
+00800149 l     O .bss	00000008 twi_txBuffer
+00800719 l     O .bss	00000001 _ZN7TwoWire12transmittingE
+00800724 l     O .bss	00000001 _ZN7TwoWire14txBufferLengthE
+0080071a l     O .bss	00000001 _ZN7TwoWire13txBufferIndexE
+0080071b l     O .bss	00000008 _ZN7TwoWire8txBufferE
+00800712 l     O .bss	00000001 twi_sendStop
+00800705 l     O .bss	00000001 twi_inRepStart
+00800148 l     O .bss	00000001 twi_timed_out_flag
+00800723 l     O .bss	00000001 _ZN7TwoWire9txAddressE
+00800711 l     O .bss	00000001 twi_error
+00800710 l     O .bss	00000001 twi_masterBufferIndex
+0080070f l     O .bss	00000001 twi_masterBufferLength
+00800707 l     O .bss	00000008 twi_masterBuffer
+00800706 l     O .bss	00000001 twi_slarw
+00800715 l     O .bss	00000004 twi_timeout_us
+00800714 l     O .bss	00000001 twi_do_reset_on_timeout
+00800169 l     O .bss	00000002 twi_onSlaveTransmit
+00800167 l     O .bss	00000002 twi_onSlaveReceive
+008007ce l     O .bss	0000000a ads
+008007c2 l     O .bss	0000000c Wire
+00800166 l     O .bss	00000001 _ZN8SPIClass11initializedE
+0080016b l     O .bss	00000001 sample_count
+008002f6 l     O .bss	00000002 Channel_0_1_half_mV
+00800172 l     O .bss	00000002 Channel_0_1_half_mV_current
+00800176 l     O .bss	00000002 Channel_0_1_half_mV_previous
+0080016e l     O .bss	00000002 Channel_0_1_mV_display
+008002f2 l     O .bss	00000002 Channel_2_3_half_mV
+00800170 l     O .bss	00000002 Channel_2_3_half_mV_current
+00800174 l     O .bss	00000002 Channel_2_3_half_mV_previous
+0080016c l     O .bss	00000002 Channel_2_3_mV_display
+008002f1 l     O .bss	00000001 history_is_initialized
+008002fa l     O .bss	00000001 _Time_To_Update_Display
+008002f8 l     O .bss	00000002 _Channel_0_1_Latest_half_mV_Sample
+008002f4 l     O .bss	00000002 _Channel_2_3_Latest_half_mV_Sample
+00800292 l     O .bss	0000005e Channel_0_1_half_mV_min_history
+00800234 l     O .bss	0000005e Channel_0_1_half_mV_max_history
+008001d6 l     O .bss	0000005e Channel_2_3_half_mV_min_history
+00800178 l     O .bss	0000005e Channel_2_3_half_mV_max_history
+008002f0 l     O .bss	00000001 i
+0080015e l     O .bss	00000004 timer0_millis
+0080015d l     O .bss	00000001 timer0_fract
+0080015c l     O .bss	00000001 _ISR_State_
+0080015b l     O .bss	00000001 twi_rxBufferIndex
+00800153 l     O .bss	00000008 twi_rxBuffer
+00800152 l     O .bss	00000001 twi_txBufferIndex
+008007dc g       .bss	00000000 __bss_end
+008007d8 g     O .bss	00000002 __brkval
+00800148 g       .bss	00000000 __bss_start
+008007da g     O .bss	00000002 __flp
+
+
+========== .text only ========== 
+
+D:\Arduino_Build\CFAG12864T3U3.ino.elf:     file format elf32-avr
+
+SYMBOL TABLE:
+00000000 l    d  .text	00000000 .text
+00000a3c l     F .text	00000116 _Z11Strip_CharthhiihPiS_.constprop.17
+00000b52 l     F .text	0000003e pinMode.constprop.6
+000009d1 l     O .text	00000014 digital_pin_to_bit_mask_PGM
+000009bd l     O .text	00000014 digital_pin_to_port_PGM
+000009b3 l     O .text	0000000a port_to_mode_PGM
+000009a9 l     O .text	0000000a port_to_output_PGM
+00000b90 l     F .text	000001a0 _Z11Draw_BitmaphhhhPKh.constprop.5
+00000d30 l     F .text	00000002 _ZN7TwoWire16onRequestServiceEv
+00000d32 l     F .text	00000002 _ZN7TwoWire16onReceiveServiceEPhi
+00000d34 l     F .text	0000005a _ZN5Print5writeEPKhj
+00000d8e l     F .text	0000001e _ZN14HardwareSerial17availableForWriteEv
+00000dac l     F .text	00000028 _ZN14HardwareSerial4readEv
+00000dd4 l     F .text	0000001c _ZN14HardwareSerial4peekEv
+00000df0 l     F .text	00000018 _ZN14HardwareSerial9availableEv
+00000e08 l     F .text	00000014 _Z17Serial0_availablev
+00000e1c l     F .text	00000014 _Z14serialEventRunv
+00000e30 l     F .text	00000044 _ZN14HardwareSerial17_tx_udr_empty_irqEv
+00000e74 l     F .text	0000009a _ZN14HardwareSerial5writeEh
+00000f0e l     F .text	00000040 _ZN14HardwareSerial5flushEv
+00000f4e l     F .text	00000098 digitalWrite
+00000528 l     O .text	00000014 digital_pin_to_timer_PGM
+00000fe6 l     F .text	0000004a micros
+00001030 l     F .text	00000050 _Z15Scale_To_StringaPc
+00001080 l     F .text	00000078 _Z18Voltage_To_StringsiPcS_
+000010f8 l     F .text	00000002 _ZN7TwoWire5flushEv
+000010fa l     F .text	0000001e _ZN7TwoWire4peekEv
+00001118 l     F .text	00000026 _ZN7TwoWire4readEv
+0000113e l     F .text	0000000e _ZN7TwoWire9availableEv
+0000114c l     F .text	00000006 _ZN5Print17availableForWriteEv
+00001152 l     F .text	000000b0 _Z10put_letterhhh.part.1
+00000228 l     O .text	00000300 Font_08x08_Horiz
+00001202 l     F .text	00000040 _Z10put_stringhhhPc.constprop.4
+00001242 l     F .text	00000042 _Z12put_string_PhhhPK19__FlashStringHelper.constprop.11
+00001284 l     F .text	000000da _Z14put_big_numberhhhPc
+00000208 l     O .text	00000020 big_plus
+000001e8 l     O .text	00000020 big_minus
+000001c8 l     O .text	00000020 big_dot
+000001a8 l     O .text	00000020 big_0
+00000188 l     O .text	00000020 big_1
+00000168 l     O .text	00000020 big_2
+00000148 l     O .text	00000020 big_3
+00000128 l     O .text	00000020 big_4
+00000108 l     O .text	00000020 big_5
+000000e8 l     O .text	00000020 big_6
+000000c8 l     O .text	00000020 big_7
+000000a8 l     O .text	00000020 big_8
+00000088 l     O .text	00000020 big_9
+00000068 l     O .text	00000020 big_space
+0000135e l     F .text	0000000e _ZN8SPIClass8transferEh
+0000136c l     F .text	0000000c _Z12SPI_sendDatah
+00001378 l     F .text	0000000c _Z15SPI_sendCommandh
+00001384 l     F .text	00000068 _Z27Send_Framebuffer_To_Displayv
+000013ec l     F .text	0000004e twi_transmit
+0000143a l     F .text	0000005a _ZN7TwoWire5writeEPKhj
+00001494 l     F .text	0000005e _ZN7TwoWire5writeEh
+000014f2 l     F .text	0000003c twi_init
+0000152e l     F .text	00000042 twi_handleTimeout
+00001570 l     F .text	000001e0 _ZN7TwoWire15endTransmissionEh.constprop.37
+00001750 l     F .text	00000036 _ZN18Adafruit_I2CDevice5writeEPKhjbS1_j.part.1.constprop.28
+00001786 l     F .text	00000072 _ZN18Adafruit_I2CDevice8detectedEv
+000017f8 l     F .text	00000042 _ZN16Adafruit_ADS1X1513writeRegisterEhj.constprop.26
+0000183a l     F .text	00000030 _ZN16Adafruit_ADS1X1515startADCReadingEjb.constprop.25
+0000186a l     F .text	000002c2 _ZN16Adafruit_ADS1X1524getLastConversionResultsEv.constprop.21
+00001b2c l     F .text	0000001a _ZN5Print5writeEPKc.part.2.constprop.14
+00001b46 l     F .text	00000070 twi_stop
+00001bb6 l     F .text	0000004c _Z10SerPrintFFPK19__FlashStringHelperz
+00002012 l     F .text	00000084 _GLOBAL__I_65535_0_fnt_08x08_h.c.o.2329
+00000597 l     O .text	00000012 _ZZ5setupE3__c
+0000057b l     O .text	0000001c _ZZ5setupE3__c_0
+0000053c l     O .text	00000010 _ZL24Static_Indicator_Columns
+00000573 l     O .text	00000008 _ZZ5setupE3__c_1
+0000056c l     O .text	00000007 _ZZ5setupE3__c_2
+0000054c l     O .text	00000020 _ZZ5setupE3__c_3
+000005a9 l     O .text	00000400 _ZL17Background_Bitmap
+00000a14 l       .text	00000000 .do_clear_bss_start
+00000a12 l       .text	00000000 .do_clear_bss_loop
+00002ff8 l       .text	00000000 __udivmodhi4_ep
+00002fea l       .text	00000000 __udivmodhi4_loop
+00003022 l       .text	00000000 __divmodhi4_neg1
+0000302a l       .text	00000000 __divmodhi4_neg2
+00003030 l       .text	00000000 __divmodhi4_exit
+00003050 l       .text	00000000 __divmodsi4_neg2
+0000305e l       .text	00000000 __divmodsi4_exit
+000030de l       .text	00000000 __udivmodsi4_ep
+000030c4 l       .text	00000000 __udivmodsi4_loop
+00003348 l       .text	00000000 __stop_program
+000030aa g       .text	00000004 .hidden __usmulhisi3
+00000a38  w      .text	00000000 __vector_22
+0000308c g       .text	0000001e .hidden __umulhisi3
+00000a38  w      .text	00000000 __vector_1
+00002fac g       .text	00000036 .hidden __epilogue_restores__
+00002fe2 g       .text	00000028 .hidden __udivmodhi4
+00000068 g       .text	00000000 __trampolines_start
+0000334a g       .text	00000000 _etext
+00001dd4 g     F .text	0000023e __vector_24
+00000a38  w      .text	00000000 __vector_12
+00002eb8 g     F .text	000000bc __ultoa_invert
+00000a38 g       .text	00000000 __bad_interrupt
+00000a38  w      .text	00000000 __vector_6
+000030fc g     F .text	00000138 malloc
+00000068 g       .text	00000000 __trampolines_end
+00000a38  w      .text	00000000 __vector_3
+00000a38  w      .text	00000000 __vector_23
+000009e8 g       .text	00000000 __dtors_end
+00000a38  w      .text	00000000 __vector_25
+0000307c g       .text	00000010 .hidden __mulhisi3
+00002e42 g     F .text	00000016 strnlen
+00001d46 g     F .text	0000008e __vector_11
+000009e8  w      .text	00000000 __init
+00000a38  w      .text	00000000 __vector_13
+00000a38  w      .text	00000000 __vector_17
+00001c02 g     F .text	0000004c __vector_19
+00000a38  w      .text	00000000 __vector_7
+00000a0a g       .text	00000010 .hidden __do_clear_bss
+00002e2c g     F .text	00000016 strnlen_P
+00000000 g       .text	00000000 __vectors
+00000000  w      .text	00000000 __vector_default
+0000300a g       .text	00000028 .hidden __divmodhi4
+00000a38  w      .text	00000000 __vector_5
+00003070 g       .text	0000000c .hidden __tablejump2__
+000009e6 g       .text	00000000 __ctors_start
+000009f4 g       .text	00000016 .hidden __do_copy_data
+00002096 g     F .text	00000978 main
+00000a38  w      .text	00000000 __vector_4
+00003060 g       .text	00000010 .hidden __negsi2
+00000a38  w      .text	00000000 __vector_9
+00000a38  w      .text	00000000 __vector_2
+00002a0e g     F .text	00000012 memcpy_P
+00002a20 g     F .text	00000058 vsnprintf_P
+00000a38  w      .text	00000000 __vector_21
+00000a38  w      .text	00000000 __vector_15
+00002e58 g     F .text	00000060 fputc
+000009e8 g       .text	00000000 __dtors_start
+000009e8 g       .text	00000000 __ctors_end
+00003032 g       .text	0000002e .hidden __divmodsi4
+000030ae g       .text	0000000a .hidden __usmulhisi3_tail
+00000a38  w      .text	00000000 __vector_8
+00003346  w      .text	00000000 .hidden exit
+0000300a g       .text	00000000 .hidden _div
+000030b8 g       .text	00000044 .hidden __udivmodsi4
+00003346 g       .text	00000000 .hidden _exit
+00000a38  w      .text	00000000 __vector_14
+00000a38  w      .text	00000000 __vector_10
+00001cb2 g     F .text	00000094 __vector_16
+00001c4e g     F .text	00000064 __vector_18
+00000a38  w      .text	00000000 __vector_20
+00002f74 g       .text	00000038 .hidden __prologue_saves__
+00002a78 g     F .text	000003b4 vfprintf
+00003234 g     F .text	00000112 free
+00000a1a g       .text	00000016 .hidden __do_global_ctors
+
+
+========== default ========== 
+
+D:\Arduino_Build\CFAG12864T3U3.ino.elf:     file format elf32-avr
+
+SYMBOL TABLE:
+00800100 l    d  .data	00000000 .data
+00000000 l    d  .text	00000000 .text
+00800148 l    d  .bss	00000000 .bss
+00000000 l    d  .comment	00000000 .comment
+00000000 l    d  .note.gnu.avr.deviceinfo	00000000 .note.gnu.avr.deviceinfo
+00000000 l    d  .debug_aranges	00000000 .debug_aranges
+00000000 l    d  .debug_info	00000000 .debug_info
+00000000 l    d  .debug_abbrev	00000000 .debug_abbrev
+00000000 l    d  .debug_line	00000000 .debug_line
+00000000 l    d  .debug_frame	00000000 .debug_frame
+00000000 l    d  .debug_str	00000000 .debug_str
+00000000 l    d  .debug_loc	00000000 .debug_loc
+00000000 l    d  .debug_ranges	00000000 .debug_ranges
+00000000 l    df *ABS*	00000000 malloc.c
+0000003e l       *ABS*	00000000 __SP_H__
+0000003d l       *ABS*	00000000 __SP_L__
+0000003f l       *ABS*	00000000 __SREG__
+00000000 l       *ABS*	00000000 __tmp_reg__
+00000001 l       *ABS*	00000000 __zero_reg__
+00000000 l    df *ABS*	00000000 
+0000003e l       *ABS*	00000000 __SP_H__
+0000003d l       *ABS*	00000000 __SP_L__
+0000003f l       *ABS*	00000000 __SREG__
+00000000 l       *ABS*	00000000 __tmp_reg__
+00000001 l       *ABS*	00000000 __zero_reg__
+00000a3c l     F .text	00000116 _Z11Strip_CharthhiihPiS_.constprop.17
+008002fb l     O .bss	00000400 framebuffer
+00000b52 l     F .text	0000003e pinMode.constprop.6
+000009d1 l     O .text	00000014 digital_pin_to_bit_mask_PGM
+000009bd l     O .text	00000014 digital_pin_to_port_PGM
+000009b3 l     O .text	0000000a port_to_mode_PGM
+000009a9 l     O .text	0000000a port_to_output_PGM
+00000b90 l     F .text	000001a0 _Z11Draw_BitmaphhhhPKh.constprop.5
+00000d30 l     F .text	00000002 _ZN7TwoWire16onRequestServiceEv
+00000d32 l     F .text	00000002 _ZN7TwoWire16onReceiveServiceEPhi
+00000d34 l     F .text	0000005a _ZN5Print5writeEPKhj
+00000d8e l     F .text	0000001e _ZN14HardwareSerial17availableForWriteEv
+00000dac l     F .text	00000028 _ZN14HardwareSerial4readEv
+00000dd4 l     F .text	0000001c _ZN14HardwareSerial4peekEv
+00000df0 l     F .text	00000018 _ZN14HardwareSerial9availableEv
+00000e08 l     F .text	00000014 _Z17Serial0_availablev
+00800725 l     O .bss	0000009d Serial
+00000e1c l     F .text	00000014 _Z14serialEventRunv
+00000e30 l     F .text	00000044 _ZN14HardwareSerial17_tx_udr_empty_irqEv
+00000e74 l     F .text	0000009a _ZN14HardwareSerial5writeEh
+00000f0e l     F .text	00000040 _ZN14HardwareSerial5flushEv
+00000f4e l     F .text	00000098 digitalWrite
+00000528 l     O .text	00000014 digital_pin_to_timer_PGM
+00000fe6 l     F .text	0000004a micros
+00800162 l     O .bss	00000004 timer0_overflow_count
+00001030 l     F .text	00000050 _Z15Scale_To_StringaPc
+00001080 l     F .text	00000078 _Z18Voltage_To_StringsiPcS_
+000010f8 l     F .text	00000002 _ZN7TwoWire5flushEv
+000010fa l     F .text	0000001e _ZN7TwoWire4peekEv
+008006fc l     O .bss	00000001 _ZN7TwoWire13rxBufferIndexE
+008006fb l     O .bss	00000001 _ZN7TwoWire14rxBufferLengthE
+008006fd l     O .bss	00000008 _ZN7TwoWire8rxBufferE
+00001118 l     F .text	00000026 _ZN7TwoWire4readEv
+0000113e l     F .text	0000000e _ZN7TwoWire9availableEv
+0000114c l     F .text	00000006 _ZN5Print17availableForWriteEv
+00001152 l     F .text	000000b0 _Z10put_letterhhh.part.1
+00000228 l     O .text	00000300 Font_08x08_Horiz
+00001202 l     F .text	00000040 _Z10put_stringhhhPc.constprop.4
+00001242 l     F .text	00000042 _Z12put_string_PhhhPK19__FlashStringHelper.constprop.11
+00001284 l     F .text	000000da _Z14put_big_numberhhhPc
+00000208 l     O .text	00000020 big_plus
+000001e8 l     O .text	00000020 big_minus
+000001c8 l     O .text	00000020 big_dot
+000001a8 l     O .text	00000020 big_0
+00000188 l     O .text	00000020 big_1
+00000168 l     O .text	00000020 big_2
+00000148 l     O .text	00000020 big_3
+00000128 l     O .text	00000020 big_4
+00000108 l     O .text	00000020 big_5
+000000e8 l     O .text	00000020 big_6
+000000c8 l     O .text	00000020 big_7
+000000a8 l     O .text	00000020 big_8
+00000088 l     O .text	00000020 big_9
+00000068 l     O .text	00000020 big_space
+0000135e l     F .text	0000000e _ZN8SPIClass8transferEh
+0000136c l     F .text	0000000c _Z12SPI_sendDatah
+00001378 l     F .text	0000000c _Z15SPI_sendCommandh
+00001384 l     F .text	00000068 _Z27Send_Framebuffer_To_Displayv
+000013ec l     F .text	0000004e twi_transmit
+00800151 l     O .bss	00000001 twi_txBufferLength
+00800713 l     O .bss	00000001 twi_state
+00800149 l     O .bss	00000008 twi_txBuffer
+0000143a l     F .text	0000005a _ZN7TwoWire5writeEPKhj
+00800719 l     O .bss	00000001 _ZN7TwoWire12transmittingE
+00001494 l     F .text	0000005e _ZN7TwoWire5writeEh
+00800724 l     O .bss	00000001 _ZN7TwoWire14txBufferLengthE
+0080071a l     O .bss	00000001 _ZN7TwoWire13txBufferIndexE
+0080071b l     O .bss	00000008 _ZN7TwoWire8txBufferE
+000014f2 l     F .text	0000003c twi_init
+00800712 l     O .bss	00000001 twi_sendStop
+00800705 l     O .bss	00000001 twi_inRepStart
+0000152e l     F .text	00000042 twi_handleTimeout
+00800148 l     O .bss	00000001 twi_timed_out_flag
+00001570 l     F .text	000001e0 _ZN7TwoWire15endTransmissionEh.constprop.37
+00800723 l     O .bss	00000001 _ZN7TwoWire9txAddressE
+00800711 l     O .bss	00000001 twi_error
+00800710 l     O .bss	00000001 twi_masterBufferIndex
+0080070f l     O .bss	00000001 twi_masterBufferLength
+00800707 l     O .bss	00000008 twi_masterBuffer
+00800706 l     O .bss	00000001 twi_slarw
+00800715 l     O .bss	00000004 twi_timeout_us
+00800714 l     O .bss	00000001 twi_do_reset_on_timeout
+00001750 l     F .text	00000036 _ZN18Adafruit_I2CDevice5writeEPKhjbS1_j.part.1.constprop.28
+00001786 l     F .text	00000072 _ZN18Adafruit_I2CDevice8detectedEv
+00800169 l     O .bss	00000002 twi_onSlaveTransmit
+00800167 l     O .bss	00000002 twi_onSlaveReceive
+000017f8 l     F .text	00000042 _ZN16Adafruit_ADS1X1513writeRegisterEhj.constprop.26
+008007ce l     O .bss	0000000a ads
+0000183a l     F .text	00000030 _ZN16Adafruit_ADS1X1515startADCReadingEjb.constprop.25
+0000186a l     F .text	000002c2 _ZN16Adafruit_ADS1X1524getLastConversionResultsEv.constprop.21
+00001b2c l     F .text	0000001a _ZN5Print5writeEPKc.part.2.constprop.14
+00001b46 l     F .text	00000070 twi_stop
+00001bb6 l     F .text	0000004c _Z10SerPrintFFPK19__FlashStringHelperz
+00002012 l     F .text	00000084 _GLOBAL__I_65535_0_fnt_08x08_h.c.o.2329
+00800106 l     O .data	00000012 _ZTV14HardwareSerial
+008007c2 l     O .bss	0000000c Wire
+00800118 l     O .data	00000012 _ZTV7TwoWire
+00000597 l     O .text	00000012 _ZZ5setupE3__c
+00800166 l     O .bss	00000001 _ZN8SPIClass11initializedE
+0000057b l     O .text	0000001c _ZZ5setupE3__c_0
+0000053c l     O .text	00000010 _ZL24Static_Indicator_Columns
+00000573 l     O .text	00000008 _ZZ5setupE3__c_1
+0000056c l     O .text	00000007 _ZZ5setupE3__c_2
+0080016b l     O .bss	00000001 sample_count
+008002f6 l     O .bss	00000002 Channel_0_1_half_mV
+00800172 l     O .bss	00000002 Channel_0_1_half_mV_current
+00800176 l     O .bss	00000002 Channel_0_1_half_mV_previous
+0080016e l     O .bss	00000002 Channel_0_1_mV_display
+008002f2 l     O .bss	00000002 Channel_2_3_half_mV
+00800170 l     O .bss	00000002 Channel_2_3_half_mV_current
+00800174 l     O .bss	00000002 Channel_2_3_half_mV_previous
+0080016c l     O .bss	00000002 Channel_2_3_mV_display
+008002f1 l     O .bss	00000001 history_is_initialized
+0000054c l     O .text	00000020 _ZZ5setupE3__c_3
+008002fa l     O .bss	00000001 _Time_To_Update_Display
+008002f8 l     O .bss	00000002 _Channel_0_1_Latest_half_mV_Sample
+008002f4 l     O .bss	00000002 _Channel_2_3_Latest_half_mV_Sample
+000005a9 l     O .text	00000400 _ZL17Background_Bitmap
+00800292 l     O .bss	0000005e Channel_0_1_half_mV_min_history
+00800234 l     O .bss	0000005e Channel_0_1_half_mV_max_history
+008001d6 l     O .bss	0000005e Channel_2_3_half_mV_min_history
+00800178 l     O .bss	0000005e Channel_2_3_half_mV_max_history
+008002f0 l     O .bss	00000001 i
+0080015e l     O .bss	00000004 timer0_millis
+0080015d l     O .bss	00000001 timer0_fract
+0080015c l     O .bss	00000001 _ISR_State_
+0080015b l     O .bss	00000001 twi_rxBufferIndex
+00800153 l     O .bss	00000008 twi_rxBuffer
+00800152 l     O .bss	00000001 twi_txBufferIndex
+00000000 l    df *ABS*	00000000 _clear_bss.o
+00000a14 l       .text	00000000 .do_clear_bss_start
+00000a12 l       .text	00000000 .do_clear_bss_loop
+00000000 l    df *ABS*	00000000 vsnprintf_p.c
+0000003e l       *ABS*	00000000 __SP_H__
+0000003d l       *ABS*	00000000 __SP_L__
+0000003f l       *ABS*	00000000 __SREG__
+00000000 l       *ABS*	00000000 __tmp_reg__
+00000001 l       *ABS*	00000000 __zero_reg__
+00000000 l    df *ABS*	00000000 vfprintf.c
+0000003e l       *ABS*	00000000 __SP_H__
+0000003d l       *ABS*	00000000 __SP_L__
+0000003f l       *ABS*	00000000 __SREG__
+00000000 l       *ABS*	00000000 __tmp_reg__
+00000001 l       *ABS*	00000000 __zero_reg__
+00000000 l    df *ABS*	00000000 fputc.c
+0000003e l       *ABS*	00000000 __SP_H__
+0000003d l       *ABS*	00000000 __SP_L__
+0000003f l       *ABS*	00000000 __SREG__
+00000000 l       *ABS*	00000000 __tmp_reg__
+00000001 l       *ABS*	00000000 __zero_reg__
+00000000 l    df *ABS*	00000000 _udivmodhi4.o
+00002ff8 l       .text	00000000 __udivmodhi4_ep
+00002fea l       .text	00000000 __udivmodhi4_loop
+00000000 l    df *ABS*	00000000 _divmodhi4.o
+00003022 l       .text	00000000 __divmodhi4_neg1
+0000302a l       .text	00000000 __divmodhi4_neg2
+00003030 l       .text	00000000 __divmodhi4_exit
+00000000 l    df *ABS*	00000000 _divmodsi4.o
+00003050 l       .text	00000000 __divmodsi4_neg2
+0000305e l       .text	00000000 __divmodsi4_exit
+00000000 l    df *ABS*	00000000 _udivmodsi4.o
+000030de l       .text	00000000 __udivmodsi4_ep
+000030c4 l       .text	00000000 __udivmodsi4_loop
+00000000 l    df *ABS*	00000000 _exit.o
+00003348 l       .text	00000000 __stop_program
+000030aa g       .text	00000004 .hidden __usmulhisi3
+00000a38  w      .text	00000000 __vector_22
+0000308c g       .text	0000001e .hidden __umulhisi3
+00000a38  w      .text	00000000 __vector_1
+0000ffa0 g       *ABS*	00000000 __DATA_REGION_LENGTH__
+00002fac g       .text	00000036 .hidden __epilogue_restores__
+00002fe2 g       .text	00000028 .hidden __udivmodhi4
+00000068 g       .text	00000000 __trampolines_start
+0000334a g       .text	00000000 _etext
+00001dd4 g     F .text	0000023e __vector_24
+00000a38  w      .text	00000000 __vector_12
+00002eb8 g     F .text	000000bc __ultoa_invert
+00000a38 g       .text	00000000 __bad_interrupt
+00003392 g       *ABS*	00000000 __data_load_end
+00000a38  w      .text	00000000 __vector_6
+000030fc g     F .text	00000138 malloc
+00800102 g     O .data	00000002 __malloc_heap_start
+00000068 g       .text	00000000 __trampolines_end
+00000a38  w      .text	00000000 __vector_3
+00000a38  w      .text	00000000 __vector_23
+0000334a g       *ABS*	00000000 __data_load_start
+000009e8 g       .text	00000000 __dtors_end
+008007dc g       .bss	00000000 __bss_end
+00000400 g       *ABS*	00000000 __LOCK_REGION_LENGTH__
+00000a38  w      .text	00000000 __vector_25
+008007d8 g     O .bss	00000002 __brkval
+0000307c g       .text	00000010 .hidden __mulhisi3
+00002e42 g     F .text	00000016 strnlen
+00001d46 g     F .text	0000008e __vector_11
+000009e8  w      .text	00000000 __init
+00000a38  w      .text	00000000 __vector_13
+00000a38  w      .text	00000000 __vector_17
+00001c02 g     F .text	0000004c __vector_19
+00000a38  w      .text	00000000 __vector_7
+00000a0a g       .text	00000010 .hidden __do_clear_bss
+00002e2c g     F .text	00000016 strnlen_P
+00810000 g       .comment	00000000 __eeprom_end
+00800100 g     O .data	00000002 __malloc_heap_end
+00000000  w      *UND*	00000000 _Z11serialEventv
+00000000 g       .text	00000000 __vectors
+00800148 g       .data	00000000 __data_end
+00000000  w      .text	00000000 __vector_default
+0000300a g       .text	00000028 .hidden __divmodhi4
+00000a38  w      .text	00000000 __vector_5
+00000400 g       *ABS*	00000000 __SIGNATURE_REGION_LENGTH__
+00003070 g       .text	0000000c .hidden __tablejump2__
+000009e6 g       .text	00000000 __ctors_start
+000009f4 g       .text	00000016 .hidden __do_copy_data
+00800148 g       .bss	00000000 __bss_start
+00002096 g     F .text	00000978 main
+00000a38  w      .text	00000000 __vector_4
+00800060 g       *ABS*	00000000 __DATA_REGION_ORIGIN__
+00003060 g       .text	00000010 .hidden __negsi2
+00000000  w      *ABS*	00000000 __heap_end
+00000a38  w      .text	00000000 __vector_9
+00000a38  w      .text	00000000 __vector_2
+00000400 g       *ABS*	00000000 __USER_SIGNATURE_REGION_LENGTH__
+00002a0e g     F .text	00000012 memcpy_P
+00002a20 g     F .text	00000058 vsnprintf_P
+00000a38  w      .text	00000000 __vector_21
+00000a38  w      .text	00000000 __vector_15
+00002e58 g     F .text	00000060 fputc
+008007dc g       .comment	00000000 __heap_start
+000009e8 g       .text	00000000 __dtors_start
+000009e8 g       .text	00000000 __ctors_end
+00003032 g       .text	0000002e .hidden __divmodsi4
+000008ff  w      *ABS*	00000000 __stack
+00800148 g       .data	00000000 _edata
+000030ae g       .text	0000000a .hidden __usmulhisi3_tail
+008007dc g       .comment	00000000 _end
+00000a38  w      .text	00000000 __vector_8
+00003346  w      .text	00000000 .hidden exit
+0000300a g       .text	00000000 .hidden _div
+008007da g     O .bss	00000002 __flp
+000030b8 g       .text	00000044 .hidden __udivmodsi4
+00010000 g       *ABS*	00000000 __EEPROM_REGION_LENGTH__
+00003346 g       .text	00000000 .hidden _exit
+00000a38  w      .text	00000000 __vector_14
+00000a38  w      .text	00000000 __vector_10
+00001cb2 g     F .text	00000094 __vector_16
+00800100 g       .data	00000000 __data_start
+00001c4e g     F .text	00000064 __vector_18
+00000003 g       *ABS*	00000000 __FUSE_REGION_LENGTH__
+00020000 g       *ABS*	00000000 __TEXT_REGION_LENGTH__
+00800104 g     O .data	00000002 __malloc_margin
+00000a38  w      .text	00000000 __vector_20
+00002f74 g       .text	00000038 .hidden __prologue_saves__
+00002a78 g     F .text	000003b4 vfprintf
+00003234 g     F .text	00000112 free
+00000a1a g       .text	00000016 .hidden __do_global_ctors
+
+
+========== done ========== 
